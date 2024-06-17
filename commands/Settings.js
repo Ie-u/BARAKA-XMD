@@ -83,14 +83,14 @@ Eg:- .setvar MONGODB_URI:put mongodb url
 12♻️➣ To put Open api key type :
 Eg:- .setvar OPENAI_API_KEY:put open api key
 
-13♻️➣ To put Owner name type :
+13♻️➣ To put Owner name type :Jazzy casi
 Eg:- .setvar OWNER_NUMBER:put any name
 
 14♻️➣ To put Owner number type :
-Eg:- .setvar OWNER_NUMBER:92xxxxxxxx
+Eg:- .setvar OWNER_NUMBER:254743416283
 
 15♻️➣ To put Pack info type :
-Eg:- .setvar PACK_INFO:put any name
+Eg:- .setvar PACK_INFO: Jazzy 
 
 16♻️➣ To put prefix type :
 Eg:- .setvar PREFIX:.
