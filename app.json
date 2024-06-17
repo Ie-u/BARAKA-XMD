@@ -102,7 +102,7 @@
   "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
          "value": "public"
   },
-      "AUTO_REACTION": { ”false"
+      "AUTO_REACTION": { false
     "description": "Reacts emoji to all messages.",
      "value": "true",
      "required": false 
