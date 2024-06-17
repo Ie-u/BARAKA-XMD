@@ -23,7 +23,7 @@
     "description": "Put HEROKU API KEY",
      "required" :true
     },
-  "HEROKU_APP_NAME": {true 
+  "HEROKU_APP_NAME": {
     "description": "Put HEROKU APP NAME same as above.",
      "required" :true
     },
@@ -115,7 +115,7 @@
     "description": "PUT STICKER PACK NAME",
     "value": "king-mdbot"
   },
-  "heroku": {false
+  "heroku": {
     "description": "Weather it is on heroku or not",
      "value": "false",
      "required": false   
