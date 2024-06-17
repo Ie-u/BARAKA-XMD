@@ -31,11 +31,11 @@
     "description": "Put Your Image Url for bot.",
      "value": "https://telegra.ph/file/a6b9bbde7feaa92c69c7b.jpg"
     },
-    "ANTI_BAD_WORD": {false
+    "ANTI_BAD_WORD": {
     "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
      "required" :false
     },
-   "ANTILINK_VALUES": {false
+   "ANTILINK_VALUES": {
     "description": "Put words for antilink",
      "value": "chat.whatsapp.com",
      "required" :false
@@ -45,7 +45,7 @@
      "value": "212",
      "required" :false
     },
-     "ANTILINK_ACTION": {false
+     "ANTILINK_ACTION": {
     "description": "Put action for antilink",
      "value": "remove",
      "required" :false
@@ -55,11 +55,11 @@
      "required" :false,
      "value": "false"
     },
-    "SUDO": {false
+    "SUDO": { "252743416283"
     "description": "PUT NUMBER For Sudo and without +",
      "required"  :false
     },
-      "READ_MESSAGE": {false
+      "READ_MESSAGE": {"true"
     "description": "Fill the value true if you want bot to read all messages.",
      "required" :false,
      "value": "true"
@@ -69,7 +69,7 @@
 	    "required": "true",
 	    "value": "*KING-MD*"
 },
-    "DISABLE_PM": {false
+    "DISABLE_PM": {"false"
       "description": "Disable bot in pm",
       "value": "false",
       "required" :false
@@ -78,14 +78,14 @@
   "description": "Enter your desired prefix for bot.",
       "value": "."
   },
-  "OWNER_NUMBER": { "\2,5,7,7,4,3,4,1,6,2,8,3\"
+  "OWNER_NUMBER": { "25443416283"
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
        "value": "92Xxxxxxxx"
   },
    "SESSION_ID": {eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSU54ZHVDbkRWM0MyRDVGbVhHUWltRlcvY2l3ZGNvK3R3Vy81R252OE1WRT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiayt3ODIwMlJua1NybmdQMzB0aUM3RkVjd3Q0cWVqc2N2elV3WnpWUGh4UT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJPSTJ2OW05NjBOQ2VEdzZaM2F3cHkyUlFnOEJocGV6OXpHWlR6TGpzOEhnPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJmamRXdUJndDRZY3FMOStwWXkranZ5UzYyVjYvSTRqcnJxZEZob0pmd3pNPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlFLalo3ME8zRUdCMlM0cWgrNGlseDN2TXZMNVZLbmZ6ZDkrekx6TE9BRTQ9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlNPS0xCbENzTnMrK2NGMHZpcEc0N0YrWVJvWmRHZXBFU0dTdEwvVnZ4Rkk9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiVURvWTBCdXJ3dFIwM2VRUUc1T0RXR0lvUU9mMUVMb3JwOUYwZTRyTlFFTT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiM2h0a1NVSGJpUU1jVGRYdGNHT3ZLT3VaY2l2MG1UMjZHYUdiYW9BbU0yMD0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik00L080SnJjMkZDUGQwNVh1S1d3NXlKdUo3NFhrUkRFTnRvUThpeXhacGJWK1RwQ21MNFhRcHNOOVJrODNiUlMyc2NXUjY1Q2ZqdXhyZ0h0MzNRdGd3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTkyLCJhZHZTZWNyZXRLZXkiOiJPTHJ1TGVqU3Jrc1Fzbm4yZkNxRDh6Nnl6NUN2c2QrbkVJWWdDNUcxQXBrPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJYcUF2NUREWFNVR3lNVDdLdzNRYkJRIiwicGhvbmVJZCI6IjRlNTBmODZjLTNiOTktNDA1OC05YjMzLThiZDBkYTgxYWJkMCIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIzdittejlBcHZSNmV3TEZ5WHFXcGY3TUxmYzQ9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiZUMzOFpHd0U2bjJXQlh6WUlnY3hDUzZ1QWFRPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IkxFMjlLN0g1IiwibWUiOnsiaWQiOiIyNTQ3NDM0MTYyODM6MTBAcy53aGF0c2FwcC5uZXQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0pEZm5Kd0JFTTJkdTdNR0dBTWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6Ind1alFtRzBNOWJUcS9POWg3Tks3RkpCZjBSbEVYM1FoZUFSVmRRVjE5eFU9IiwiYWNjb3VudFNpZ25hdHVyZSI6IllzaXhicnEzUnBLMnAzWTJXNTRJSjZZQUNwUGZKSDlHWkg2NEFna3J1aDZ0YXhmbkJpYXFtd2pFc1lkZFN1d2FSZGpOT1hCbVhrM242ZkR2Q1BDaENBPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJpekxZS2RCRlR1YVlQYjVUTnY3WU9RaU5ub1dtT2I3V3QzUnFiY09uc0gwNWRPRVVKeDN3QUFvSnlzbWVWeE5BeDhmZ01tQzVkSTZBeTMrMi82RDVnUT09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjI1NDc0MzQxNjI4MzoxMEBzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJjTG8wSmh0RFBXMDZ2enZZZXpTdXhTUVg5RVpSRjkwSVhnRVZYVUZkZmNWIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzE4NTM3OTQ2LCJteUFwcFN0YXRlS2V5SWQiOiJBQUFBQUVOciJ9
     "description": "Please put your Session ID that u scanned from the bot.... If u haven't scanned go to KING-MD Github Repo U can find the Scanner Option"
   },
-    "OPENAI_API_KEY": {false
+    "OPENAI_API_KEY": {
     "description": "Please put your OPENAI api key here.Get it from beta.openai.com(optional if u don't wan't then don't put it ",
        "value": "ADD A OPEN AI KEY",
        "required" :false
@@ -102,7 +102,7 @@
   "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
          "value": "public"
   },
-      "AUTO_REACTION": { false
+      "AUTO_REACTION": { ”true"
     "description": "Reacts emoji to all messages.",
      "value": "true",
      "required": false 
